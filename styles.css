@@ -49,6 +49,7 @@ div > div {
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легка тінь */
     transition: background-color 0.3s ease, transform 0.1s ease; /* Плавний перехід */
+    text-decoration: none;
 }
 
 /* Стилізація кнопки при наведенні/натисканні */
