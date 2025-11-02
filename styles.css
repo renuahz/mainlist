@@ -1,0 +1,81 @@
+body{
+  padding: 25px;
+}
+.title {
+	color: #5C6AC4;
+}
+
+/* styles.css */
+
+/* Скидання базових стилів та встановлення шрифту */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fce4ec; /* Дуже світло-рожевий фон для тіла */
+    color: #4a148c; /* Темно-фіолетовий текст для контрасту */
+}
+
+/* Стилізація основного контейнера */
+div {
+    padding: 10px;
+}
+
+/* Стилізація заголовка */
+h1 {
+    text-align: center;
+    color: #e91e63; /* Яскравий рожевий для заголовка */
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border-bottom: 2px solid #ff4081; /* Рожева лінія під заголовком */
+}
+
+/* Стилізація контейнерів кнопок */
+div > div {
+    margin-bottom: 10px; /* Відступ між блоками кнопок */
+    text-align: center; /* Центрування кнопки в контейнері */
+}
+
+/* Стилізація кнопок */
+.main-btn {
+    width: 90%; /* Адаптовано під телефон: майже повна ширина */
+    padding: 15px 10px;
+    border: none;
+    border-radius: 8px; /* Заокруглені кути */
+    background-color: #ff80ab; /* Середній рожевий колір кнопки */
+    color: white; /* Білий текст на кнопках */
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Легка тінь */
+    transition: background-color 0.3s ease, transform 0.1s ease; /* Плавний перехід */
+}
+
+/* Стилізація кнопки при наведенні/натисканні */
+.main-btn:hover {
+    background-color: #f50057; /* Темніший рожевий при наведенні */
+}
+
+.main-btn:active {
+    transform: translateY(1px); /* Ефект натискання */
+}
+
+/* Медіа-запит для адаптації під менші екрани (телефони) */
+@media (max-width: 600px) {
+    body {
+        /* Забезпечення відсутності горизонтального прокручування */
+        overflow-x: hidden;
+    }
+
+    div {
+        padding: 5px; /* Зменшення внутрішніх відступів на мобільних */
+    }
+
+    .main-btn {
+        width: 95%; /* Трохи більша ширина на дуже маленьких екранах */
+        font-size: 15px;
+        padding: 12px 10px;
+    }
+}
+
+button { padding: 10px 15px; margin: 5px; cursor: pointer; border: none; border-radius: 4px; }
